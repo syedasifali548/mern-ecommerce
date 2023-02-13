@@ -1,0 +1,50 @@
+.main_Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    height: 60vh;
+    margin-block: 50px;
+}
+.loginContainer{
+    display: flex;
+    background-color: #7DE5ED;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap: 30px;
+    width: 40%;
+    text-align: center;
+    border-radius: 20px;
+}
+.loginContainer input{
+    width: 45%;
+    height: 28px;
+    border: none;
+    padding: 14px;
+    background: azure;
+    border-radius: 20px
+}
+.loginContainer button{
+    color: black;
+    padding: 15px 36px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    background: azure;
+    border-radius: 20px;
+}
+.loginContainer input{
+    position: relative;
+}
+.ShowHidePassword{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    transform: translate(121px, 10px);
+}

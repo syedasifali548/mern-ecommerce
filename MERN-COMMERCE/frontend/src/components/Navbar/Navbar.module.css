@@ -1,0 +1,42 @@
+.navbarRight{
+   margin: 0 auto;
+   position: relative;
+   text-align: center;
+}
+.navbarRight input{
+    height: 40px;
+    width: 350px;
+    padding: 16px;
+    border: none;
+    border-radius: 21px;
+    background: #eae0e0;
+}
+.navbarRight input:focus{
+  border: none;
+}
+.searchIcon{
+    right: 14px;
+    position: absolute;
+    top: 19%;
+    bottom: 0;
+
+}
+.navbar{
+    gap: 40px;
+}
+@media (max-width:992px){
+    .navbar{
+       text-align: center !important;
+       gap: 4px;
+    }   
+    .searchIcon{
+        right: 27%;
+        /* top: 16%; */
+    
+    }
+}
+@media (max-width:768px){
+    .searchIcon{
+        right: 19%;
+    }
+}
